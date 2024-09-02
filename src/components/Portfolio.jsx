@@ -28,7 +28,7 @@ function Portfolio() {
       link: "#",
     },
     {
-      id: 3,
+      id: 4,
       title: "Qurilmalar uchun dasturiy ta'minot",
       description: "Eng so'nggi firmware va dasturlarni yuklab olish imkoniyati. Har qanday qurilma uchun dasturiy ta'minotlar mavjud.",
       image: SectionImg4,

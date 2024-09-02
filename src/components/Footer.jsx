@@ -85,7 +85,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="text-center text-gray-500 mt-12">
         &copy; {new Date().getFullYear()} KelesGSM. All rights reserved.
       </div>
