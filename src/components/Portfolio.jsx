@@ -42,16 +42,8 @@ function Portfolio() {
         <h2 className="text-4xl font-bold text-center mb-12">Our Work</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
           {items.map((item) => (
-            <div 
-              key={item.id} 
-              className="group relative rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 h-80"
-              style={{ minHeight: '320px' }}
-            >
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-full h-full object-cover"
-              />
+            <div key={item.id} className="group relative rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 h-80" style={{ minHeight: '320px' }}>
+              <img src={item.image} alt={item.title} className="w-full h-full object-cover"/>
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-start p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
                 <p className="mb-4">{item.description}</p>

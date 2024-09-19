@@ -45,41 +45,21 @@ function Contact() {
           <form className="space-y-6">
             <div>
               <label className="block mb-2 font-semibold">To'liq ismingiz</label>
-              <input
-                type="text"
-                placeholder="Ismingiz"
-                className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"
-              />
+              <input type="text" placeholder="Ismingiz" className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
             </div>
             <div>
               <label className="block mb-2 font-semibold">Elektron pochta</label>
-              <input
-                type="email"
-                placeholder="Pochtangiz"
-                className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"
-              />
+              <input type="email" placeholder="Pochtangiz" className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
             </div>
             <div>
               <label className="block mb-2 font-semibold">Telefon raqam</label>
-              <input
-                type="tel"
-                placeholder="Sizning telefon raqamingiz"
-                className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"
-              />
+              <input type="tel" placeholder="Sizning telefon raqamingiz" className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
             </div>
             <div>
               <label className="block mb-2 font-semibold">Xabar qoldiring</label>
-              <textarea
-                placeholder="Xabaringizni yozing"
-                className="w-full p-4 rounded bg-gray-700 text-white h-32 focus:outline-none focus:ring-2 focus:ring-teal-400"
-              ></textarea>
+              <textarea placeholder="Xabaringizni yozing" className="w-full p-4 rounded bg-gray-700 text-white h-32 focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
             </div>
-            <button
-              type="submit"
-              className="w-full bg-teal-400 text-gray-900 font-semibold py-4 rounded hover:bg-teal-500 transition"
-            >
-              Yuborish
-            </button>
+            <button type="submit" className="w-full bg-teal-400 text-gray-900 font-semibold py-4 rounded hover:bg-teal-500 transition">Yuborish</button>
           </form>
         </div>
       </div>

@@ -19,7 +19,6 @@ function Services() {
               <p className="text-lg">Ko'proq ma'lumot uchun bog'laning</p>
             </div>
           </div>
-          {/* Xizmat 2 */}
           <div className="relative text-center p-6 bg-gray-800 rounded-lg shadow-md hover:bg-teal-500 transition">
             <FaMicrochip className="mx-auto text-4xl mb-4 text-teal-400" />
             <h3 className="text-xl font-semibold mb-2">Firmware Files</h3>
@@ -30,7 +29,6 @@ function Services() {
               <p className="text-lg">Ko'proq ma'lumot uchun bog'laning</p>
             </div>
           </div>
-          {/* Xizmat 3 */}
           <div className="relative text-center p-6 bg-gray-800 rounded-lg shadow-md hover:bg-teal-500 transition">
             <FaLock className="mx-auto text-4xl mb-4 text-teal-400" />
             <h3 className="text-xl font-semibold mb-2">FRP Removal</h3>

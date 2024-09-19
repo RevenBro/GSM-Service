@@ -20,29 +20,13 @@ function ContactUsSection() {
       <div className="container mx-auto grid md:grid-cols-2 gap-16 px-8">
         <div className="flex flex-col space-y-6">
           <h2 className="text-3xl font-bold border-l-4 border-teal-400 pl-4">Bepul xizmatlar</h2>
-          <Link
-            to="/testpoints"
-            className="text-lg font-medium hover:text-teal-400 transition transform hover:translate-x-2"
-            onMouseEnter={() => handleMouseEnter(TestPointImage)}
-            onMouseLeave={handleMouseLeave}
-          >
-            Test Pointlar
-          </Link>
-          <Link
-            to="/frp-removal"
-            className="text-lg font-medium hover:text-teal-400 transition transform hover:translate-x-2"
-            onMouseEnter={() => handleMouseEnter(FRPRemovalImage)}
-            onMouseLeave={handleMouseLeave}
-          >
-            FRP yechish
-          </Link>
+          <Link to="/testpoints" className="text-lg font-medium hover:text-teal-400 transition transform hover:translate-x-2" onMouseEnter={() => handleMouseEnter(TestPointImage)} onMouseLeave={handleMouseLeave}>Test Pointlar</Link>
+
+          <Link to="/frp-removal" className="text-lg font-medium hover:text-teal-400 transition transform hover:translate-x-2" onMouseEnter={() => handleMouseEnter(FRPRemovalImage)} onMouseLeave={handleMouseLeave}>FRP yechish</Link>
+
         </div>
         <div className="flex justify-center items-center">
-          <img
-            src={hoveredImage}
-            alt="Service Preview"
-            className="w-full h-auto rounded-lg shadow-lg"
-          />
+          <img src={hoveredImage} alt="Service Preview" className="w-full h-auto rounded-lg shadow-lg"/>
         </div>
       </div>
     </section>
