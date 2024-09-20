@@ -1,0 +1,16 @@
+{
+    "testpoints": [
+        {
+            "model": "Redmi 4x(santoni)",
+            "image": "https://dhawermobile.blogspot.com/2018/02/test-point-redmi-4x-untuk-masuk-edl-mode.html",
+            "about": "data"
+        }
+    ],
+    "firmwares": [
+        {
+            "model": "Redmi 4x",
+            "image": "redmi-4x-firmware.jpg",
+            "about": "data"
+        }
+    ]
+}
