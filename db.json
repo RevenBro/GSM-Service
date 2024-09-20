@@ -2,8 +2,43 @@
     "testpoints": [
         {
             "model": "Redmi 4x(santoni)",
-            "image": "https://dhawermobile.blogspot.com/2018/02/test-point-redmi-4x-untuk-masuk-edl-mode.html",
-            "about": "data"
+            "image": "https://1.bp.blogspot.com/-B9smA7ocBqc/WoLNznejcqI/AAAAAAAABM8/fEJl2l6FoJAUomiIu4KBN2Jl12_bFPx_gCLcBGAs/s1600/Redmi%2B4X%2BSantoni%2Btest%2Bpoint.jpg",
+            "about": "2017-yil may oyida ishlab chiqarilgan.\n O'lchamlari: 139.2 x 70 x 8.7 mm, og'irligi: 150 g,\n Operatsion tizimi - Qualcomm MSM8940 Snapdragon 435 va u Android 6.0.1 ni qo'llab-quvvatlaydi, 7.1.2 versiyagacha yangilash mumkin.\n CPU: Octa-core 1.4 GHz Cortex-A53\n GPU: Adreno 505\n, Display: 5.0 dyum, 720 x 1280 piksel, IPS LCD\n Batareya: 4100 mAh"
+        },
+        {
+            "model": "Redmi note 4(nikel)",
+            "image": "https://4.bp.blogspot.com/-gij7aC5N5oY/XC2Z3nCvLAI/AAAAAAAACnQ/WHh0MG3fcr0V5M1B0kPulnxAhqWNY75vwCLcBGAs/s1600/Mido%2B-%2BCopy.png",
+            "about": "2017-yil yanvar oyida ishlab chiqarilgan.\n O'lchamlari: 76 x 151 x 8.45 mm, og'irligi: 165 g,\n Operatsion tizimi - undifined va u Android 6.0 ni qo'llab-quvvatlaydi.\n CPU: Octa-core 2.0 GHz\n GPU: Mali-T880 MP4\n, Display: 5.5'(1920x1080) Full HD,IPS\n Batareya: 4100 mAh"
+        },
+        {
+            "model": "Redmi 5(rosy)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5-edl-point.jpg",
+            "about": "2017-yil dekabr oyida ishlab chiqarilgan.\n O'lchamlari: 72.8 x 151.8 x 7.7 mm, og'irligi: 157 g,\n Operatsion tizimi - Qualcomm Snapdragon 450 va u Android 7.1 ni qo'llab-quvvatlaydi.\n CPU: Octa-core 1.8 GHz Cortex-A53\n GPU: Adreno 506\n, Display: 5.7' (1440x720), HD,IPS\n Batareya: 3300 mAh"
+        },
+        {
+            "model": "Redmi 5 plus(vince)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5-plus-edl-point.jpg",
+            "about": "2017-yil dekabr oyida ishlab chiqarilgan.\n O'lchamlari: 75.45 x 158.5 x 8.05 mm, og'irligi: 180 g,\n Operatsion tizimi - Qualcomm Snapdragon 625.\n CPU: Octa-core 1.8 GHz Cortex-A53\n GPU: Adreno 506\n, Display: 5.99' (2160x1080), Full HD, IPS\n Batareya: 4000 mAh"
+        },
+        {
+            "model": "Redmi 5a(riva)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5a-edl-point.jpg",
+            "about": "2017-yil oktabr oyida ishlab chiqarilgan.\n O'lchamlari: 70.1 x 140.4 x 8.35 mm, og'irligi: 137 g,\n Operatsion tizimi - Qualcomm Snapdragon 425.\n CPU:Quad-core 1.4 GHz Cortex-A53\n GPU: Adreno 308\n, Display: 5'(1280x720), HD\n Batareya: 3000 mAh"
+        },
+        {
+            "model": "Redmi 6a(cactus)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-6a-edl-point.jpg",
+            "about": "2018-yil iyun oyida ishlab chiqarilgan.\n O'lchamlari: 71.5 x 147.5 x 8.3 mm, og'irligi: 145 g,\n Operatsion tizimi - Qualcomm Snapdragon 625.\n CPU:Quad-core 2.0 GHz Cortex-A53\n GPU: PowerVR GE8320, Display: 5.45' (1440x720), HD, IPS\n Batareya: 3000 mAh"
+        },
+        {
+            "model": "Redmi 6 pro(sakura)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-6-pro-edl-point.jpg",
+            "about": "2018-yil oktabr oyida ishlab chiqarilgan.\n O'lchamlari: 71.68 x 149.33 x 8.75 mm, og'irligi: 137 g,\n Operatsion tizimi - Qualcomm Snapdragon 625.\n CPU:Octa-core 2.0 GHz Cortex-A53\n GPU: Adreno 506, Display: 5.84'(2280x1080), Full HD, IPS\n Batareya: 4000 mAh"
+        },
+        {
+            "model": "Redmi 7(onclite)",
+            "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-7-edl-point.jpg",
+            "about": "2018-yil oktabr oyida ishlab chiqarilgan.\n O'lchamlari: 71.68 x 149.33 x 8.75 mm, og'irligi: 137 g,\n Operatsion tizimi - Qualcomm Snapdragon 625.\n CPU:Octa-core 2.0 GHz Cortex-A53\n GPU: Adreno 506, Display: 5.84'(2280x1080), Full HD, IPS\n Batareya: 4000 mAh"
         }
     ],
     "firmwares": [
