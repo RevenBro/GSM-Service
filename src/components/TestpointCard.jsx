@@ -6,14 +6,14 @@ import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import { useNavigate } from 'react-router-dom';
 
-export default function TestpointCard({logo, brand, body}) {
+export default function TestpointCard({logo, brand, body, onclick}) {
 
   const navigate = useNavigate()
   return (
     <Card sx={{ maxWidth: 300, backgroundColor: '#2dd4bf' }}>
       <CardActionArea>
         <CardMedia
-        onClick={() => navigate(`/testpoints/${brand.toLowerCase().replace(/\s/g, '-')}`)}  x
+          onClick={onclick}
           component="img"
           height="140"
           image={logo}
