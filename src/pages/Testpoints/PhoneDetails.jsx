@@ -2,19 +2,17 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const PhoneDetails = () => {
-  const { model } = useParams();
+  const { brand } = useParams();
   const [phoneInfo, setPhoneInfo] = useState(null);
 
   useEffect(() => {
-    // Fetch the phone data from the JSON file
-    fetch("allData.json") // Adjust path if necessary
+    fetch("db.json")
       .then((response) => response.json())
       .then((data) => {
-        // Set the phone data based on the model from the URL
-        setPhoneInfo(data[model]);
+        setPhoneInfo(data[brand]);
       })
       .catch((error) => console.error("Error fetching phone data:", error));
-  }, [model]);
+  }, [brand]);
 
   if (!phoneInfo) {
     return <div>Ma'lumot topilmadi yoki yuklanmoqda...</div>;

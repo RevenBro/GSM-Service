@@ -4,12 +4,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import { useNavigate } from 'react-router-dom';
 
-export default function TestpointCard(logo, brand) {
+export default function TestpointCard({logo, brand, body}) {
+
+  const navigate = useNavigate()
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <Card sx={{ maxWidth: 300, backgroundColor: '#2dd4bf' }}>
       <CardActionArea>
         <CardMedia
+        onClick={() => navigate(`/testpoints/${brand.toLowerCase().replace(/\s/g, '-')}`)}  x
           component="img"
           height="140"
           image={logo}
@@ -20,8 +24,7 @@ export default function TestpointCard(logo, brand) {
             {brand}
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {body}
           </Typography>
         </CardContent>
       </CardActionArea>
