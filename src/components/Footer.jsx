@@ -28,19 +28,19 @@ function Footer() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold">Quick Links</h3>
+          <h3 className="text-xl font-semibold">Tezkor Linklar</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-teal-400">Home</a>
+              <a href="#" className="hover:text-teal-400">Asosiy</a>
             </li>
             <li>
-              <a href="#" className="hover:text-teal-400">About Us</a>
+              <a href="#" className="hover:text-teal-400">Biz haqimizda</a>
             </li>
             <li>
-              <a href="#" className="hover:text-teal-400">Services</a>
+              <a href="#" className="hover:text-teal-400">Servicelar</a>
             </li>
             <li>
-              <a href="#" className="hover:text-teal-400">Contact</a>
+              <a href="#" className="hover:text-teal-400">Bog'lanish</a>
             </li>
             <li>
               <a href="#" className="hover:text-teal-400">FAQ</a>
@@ -49,8 +49,8 @@ function Footer() {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-xl font-semibold">Subscribe to Our Newsletter</h3>
-          <p className="text-gray-400">Get the latest updates and offers right in your inbox.</p>
+          <h3 className="text-xl font-semibold">Yangiliklardan xabardor bo'ling</h3>
+          <p className="text-gray-400">Oxirgi yangilanishlardan xabardor bo'lishingiz uchun emailingizni kiriting</p>
           <form>
             <input type="email" placeholder="Enter your email" className="w-full px-4 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
             <button type="submit" className="mt-4 w-full px-4 py-2 bg-teal-400 text-white rounded hover:bg-teal-500 focus:outline-none">Subscribe</button>
