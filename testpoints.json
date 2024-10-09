@@ -1,0 +1,32 @@
+[
+  {
+    "brand": "Redmi",
+    "model": "Note 9",
+    "image": "/images/redmi-note9.jpg",
+    "about": "Redmi Note 9 uchun testpoint ma'lumotlari."
+  },
+  {
+    "brand": "Samsung",
+    "model": "A05S",
+    "image": "/images/samsung-a05s.jpg",
+    "about": "Samsung A05S uchun testpoint ma'lumotlari."
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y20",
+    "image": "/images/vivo-y20.jpg",
+    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
+  },
+  {
+    "brand": "Huawei",
+    "model": "Y20",
+    "image": "/images/vivo-y20.jpg",
+    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
+  },
+  {
+    "brand": "Samsung",
+    "model": "Y20",
+    "image": "/images/vivo-y20.jpg",
+    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
+  }
+]

@@ -1,50 +1,36 @@
-import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import TestpointData from "../../../testpoints.json";
 
 const Testpoints = () => {
   const { brand } = useParams();
   const [models, setModels] = useState([]);
-  console.log(brand);
-  console.log(models);
-  
-  
 
   useEffect(() => {
-    fetch(`http://localhost:3000/testpoints`)
-      .then(response => response.json())
-      .then(data => {
-        console.log(data); 
-        if (Array.isArray(data)) {
-          const brandData = data.find(tp => tp[brand]);
-          if (brandData) {
-            setModels(brandData[brand]);
-          } else {
-            console.log(`${brand} uchun ma'lumot topilmadi`);
-          }
-        } else {
-          console.error(data);
-        }
-      })
-      .catch(error => console.error(error));
+    const brandData = TestpointData.filter(item => item.brand.toLowerCase() === brand.toLowerCase());
+
+    if (brandData.length > 0) {
+      setModels(brandData);
+    } else {
+      setModels([]);
+    }
   }, [brand]);
-  
-  
 
   return (
-    <div className="models">
-      <h2>{brand.toUpperCase()} Modellar</h2>
-      <div className="model-cards">
+    <div className="models container mx-auto py-8">
+      <h2 className="text-3xl font-bold text-center mb-6">{brand.toUpperCase()} Modellar</h2>
+      
+      <div className="model-cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {models.length > 0 ? (
           models.map((model, index) => (
-            <div className="card" key={index}>
-              <img src={model.image} alt={model.model} />
-              <h3>{model.model}</h3>
+            <div className="card bg-gray-800 text-white p-6 rounded-lg shadow-md" key={index}>
+              <img src={model.image} alt={model.model} className="mb-4 rounded" />
+              <h3 className="text-xl font-semibold">{model.model}</h3>
               <p>{model.about}</p>
             </div>
           ))
         ) : (
-          <p>Modellar topilmadi</p>
+          <p className="text-center text-xl">Modellar topilmadi</p>
         )}
       </div>
     </div>
