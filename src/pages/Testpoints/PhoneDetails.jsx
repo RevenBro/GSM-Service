@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import TestpointData from "../../../testpoints.json";
 
-const Testpoints = () => {
+const PhoneDetails = () => {
   const { brand } = useParams();
   const [models, setModels] = useState([]);
 
@@ -37,4 +37,4 @@ const Testpoints = () => {
   );
 };
 
-export default Testpoints;
+export default PhoneDetails;

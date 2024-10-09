@@ -16,9 +16,9 @@ const Testpoints = () => {
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10">Test Points</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <TestpointCard onclick={() => handleBrandClick('samsung')} logo={SamsungLogo} brand={"Samsung"} body={"Mavjud modellar soni: 0"}/>
-          <TestpointCard onclick={() => handleBrandClick('redmi')} logo={RedmiLogo} brand={"Redmi"} body={"Mavjud modellar soni: 0"}/>
-          <TestpointCard onclick={() => handleBrandClick('huawei')} logo={HuaweiLogo} brand={"Huawei"} body={"Mavjud modellar soni: 0"}/>
+          <TestpointCard onclick={() => handleBrandClick('samsung')} logo={SamsungLogo} brand={"Samsung"} body={`Mavjud modellar soni: 0`}/>
+          <TestpointCard onclick={() => handleBrandClick('redmi')} logo={RedmiLogo} brand={"Redmi"} body={`Mavjud modellar soni: 0`}/>
+          <TestpointCard onclick={() => handleBrandClick('huawei')} logo={HuaweiLogo} brand={"Huawei"} body={`Mavjud modellar soni: 0`}/>
         </div>
       </div>
     </section>
