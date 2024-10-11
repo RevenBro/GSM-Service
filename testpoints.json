@@ -1,9 +1,267 @@
 [
   {
     "brand": "Redmi",
-    "model": "Note 9",
-    "image": "/images/redmi-note9.jpg",
-    "about": "Redmi Note 9 uchun testpoint ma'lumotlari."
+    "model": "Redmi GO",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-go-edl-point.jpg",
+    "about": "Firmware: tiare"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 4G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-4g-edl-point.jpg",
+    "about": "Firmware: dior"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 2",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-2-edl-point.jpg",
+    "about": "Firmware: wt86047"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 3",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-3-edl-point.jpg",
+    "about": "Firmware: ido"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 3",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-3-edl-point.jpg",
+    "about": "Firmware: hennessy"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 3S",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-3s-edl-point.jpg",
+    "about": "Firmware: land"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 4",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-4-edl-point.jpg",
+    "about": "Firmware: prada"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 4 Prime",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-4-prime-edl-point.jpg",
+    "about": "Firmware: markw"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 4A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-4a-edl-point.jpg",
+    "about": "Firmware: rolex"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 4/4X",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-4-4x-edl-point.jpg",
+    "about": "Firmware: mido"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 4X",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-4x-edl-point.jpg",
+    "about": "Firmware: santoni"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 5",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5-edl-point.jpg",
+    "about": "Firmware: rosy"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 5/5 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-5-pro-edl-point.jpg",
+    "about": "Firmware: whyred"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 5 Plus",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5-plus-edl-point.jpg",
+    "about": "Firmware: vince"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 5A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-5a-edl-point.jpg",
+    "about": "Firmware: riva"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 5A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-5a-y1-lite-edl-point.jpg",
+    "about": "Firmware: ugglite"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 5A Prime",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-5a-prime-y1-edl-point.jpg",
+    "about": "Firmware: ugg"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 6 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-6-pro-edl-point.jpg",
+    "about": "Firmware: sakura"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 6 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-6-pro-edl-point.jpg",
+    "about": "Firmware: tulip"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 6A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-6a-edl-point.jpg",
+    "about": "Firmware: cactus"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 7",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-7-edl-point.jpg",
+    "about": "Firmware: onclite"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 7/7S",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-7-7s-edl-point.jpg",
+    "about": "Firmware: lavender"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 7 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-note-7-pro-edl-point.jpg",
+    "about": "Firmware: violet"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 7A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-7a-edl-point.jpg",
+    "about": "Firmware: pine"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 8",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-8-edl-point.jpg",
+    "about": "Firmware: olive"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-8-edl-point.jpg",
+    "about": "Firmware: ginkgo"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8T",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-8t-edl-point.jpg",
+    "about": "Firmware: willow"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 8 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-8-pro-edl-point.jpg",
+    "about": "Firmware: begonia"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 8A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-8a-edl-point.jpg",
+    "about": "Firmware: olivelite"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 8A(Dual)",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/xiaomi-redmi-8a-dual-edl-point.jpg",
+    "about": "Firmware: olivewood"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9A",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-9a-edl-point.jpg",
+    "about": "Firmware: dandelion"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi 9 Power",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-9-power-edl-point.jpg",
+    "about": "Firmware: lime"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 9S",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-9s-edl-point.jpg",
+    "about": "Firmware: curtana"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 9 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-9-pro-edl-point.jpg",
+    "about": "Firmware: joyuse"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-10-4g-edl-point.jpg",
+    "about": "Firmware: mojito"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 10 Pro/Pro Max",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-10-pro-edl-point.jpg",
+    "about": "Firmware: sweetin"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 11 Pro 5G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-11-pro-5g.jpg",
+    "about": "Firmware: veux"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Note 12 Pro 4G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-note-12-pro-4g-edl-point.jpg",
+    "about": "Firmware: sweet"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K20",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-k20-edl-point.jpg",
+    "about": "Firmware: davinci"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K20 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-k20-pro-edl-point.jpg",
+    "about": "Firmware: raphael"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K30 4G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-k-30-edl-point.jpg",
+    "about": "Firmware: phoenix"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi K30 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/redmi-k30-pro-edl-point.jpg",
+    "about": "Firmware: lmi"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi S2/Y2",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-s2-y2-edl-point.jpg",
+    "about": "Firmware: ysl"
+  },
+  {
+    "brand": "Redmi",
+    "model": "Redmi Y3",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-y3-edl-point.jpg",
+    "about": "Firmware: onc"
   },
   {
     "brand": "Samsung",
