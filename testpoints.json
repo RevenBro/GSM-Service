@@ -263,6 +263,70 @@
     "image": "https://miuirom.org/wp-content/uploads/test-point/mi-redmi-y3-edl-point.jpg",
     "about": "Firmware: onc"
   },
+
+  {
+    "brand": "Poco",
+    "model": "Poco F1",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-f1-edl-point.jpg",
+    "about": "Firmware: berryllium"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F2 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-f2-pro-edl-point.jpg",
+    "about": "Firmware: lmi"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco F4",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-f4-edl-point.jpg",
+    "about": "Firmware: munch"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M2 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-m2-pro-edl-point.jpg",
+    "about": "Firmware: gram"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco M3",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-m3-edl-point.jpg",
+    "about": "Firmware: citrus"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X2",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-x2-edl-point.jpg",
+    "about": "Firmware: phoenixin"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3/X3 NFC",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-x3-edl-point.jpg",
+    "about": "Firmware: surya"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X3 Pro",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-x3-pro-edl-point.jpg",
+    "about": "Firmware: vayu"
+  },
+
+  {
+    "brand": "Poco",
+    "model": "Poco X4 Pro 5G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-x4-pro-edl-point.jpg",
+    "about": "Firmware: veux"
+  },
+  {
+    "brand": "Poco",
+    "model": "Poco X5 Pro 5G",
+    "image": "https://miuirom.org/wp-content/uploads/test-point/poco-x5-pro-edl-point.jpg",
+    "about": "Firmware: redwood"
+  },
+
+
   {
     "brand": "Samsung",
     "model": "A05S",
