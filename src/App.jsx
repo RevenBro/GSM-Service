@@ -7,11 +7,27 @@ import Contact from './pages/Contact'
 import FAQ from './pages/FAQ'
 import TestPoints from './pages/Testpoints/Testpoints'
 import PhoneDetails from './pages/Testpoints/PhoneDetails'
+import { initReactI18next } from 'react-i18next'
+import translationsEn from './locale/translationsEn'
+import translationsUz from './locale/translationsUz'
 
+import i18n from "i18next"
+
+i18n.use(initReactI18next).init({
+  resource:{
+    en:{translation: translationsEn},
+    uz:{translation: translationsUz}
+  },
+  lng:"uz",
+  fallbackLng: "uz"
+})
 function App() {
+  const changeLang = (value) => {
+    i18n.changeLanguage(value)
+  }
   return (
     <>
-      <Header/>
+      <Header changeLang={changeLang}/>
 
       <Routes>
         <Route path="/" element={<Home/>}/>
