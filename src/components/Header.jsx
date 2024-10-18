@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import { useTranslation } from "react-i18next";
 
-function Header({changeLang}) {
+function Header({ changeLang }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const { t } = useTranslation()
+  
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
@@ -22,11 +23,10 @@ function Header({changeLang}) {
     });
   };
 
-  const handleChangeLang = (e) => {
-    changeLang(e.target.value);
-  }
-
-  const { t } = useTranslation()
+  // const handleChangeLang = (e) => {
+  //   console.log(e);
+  //   changeLang(e);
+  // }
 
   return (
     <header className="bg-gray-900 p-[20px] text-white shadow-md z-30">
@@ -42,7 +42,7 @@ function Header({changeLang}) {
         <nav className="flex items-center space-x-6 z-50">
           <ul className={`md:flex md:space-x-6 ${isMenuOpen ? "flex flex-col space-y-4" : "hidden md:flex"}`}>
             <li>
-              <Link to="/" className="hover:text-teal-400">{t("asosiy")}</Link>
+              <Link to="/" className="hover:text-teal-400">{t('asosiy')}</Link>
             </li>
             <li>
               <Link to="/contact" className="hover:text-teal-400">{t("boglanish")}</Link>
@@ -80,7 +80,7 @@ function Header({changeLang}) {
             )}
           </div> */}
 
-<div className="relative">
+          {/* <div className="relative">
             <button className="flex items-center space-x-2 hover:text-teal-400 focus:outline-none" onClick={toggleDropdown}>
               <span>Til</span>
               <svg className="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -106,7 +106,36 @@ function Header({changeLang}) {
                 </li>
               </ul>
             )}
-          </div>
+          </div> */}
+
+<div className="relative">
+  <button className="flex items-center space-x-2 hover:text-teal-400 focus:outline-none" onClick={toggleDropdown}>
+    <span>Til</span>
+    <svg className="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+      <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+    </svg>
+  </button>
+  {isDropdownOpen && (
+    <ul className="absolute right-0 mt-2 w-32 bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden">
+      <li onClick={() => changeLang("uz")}>
+        <button  className="block cursor-pointer px-4 py-2 w-full text-left hover:bg-gray-200 hover:text-[#14b8a6]">
+          O'zbek
+        </button>
+      </li>
+      <li onClick={() => changeLang("en")}>
+        <a className="block cursor-pointer px-4 w-full text-left py-2 hover:bg-gray-200 hover:text-[#14b8a6]">
+          English
+        </a>
+      </li>
+      <li onClick={() => changeLang("ru")}>
+        <a className="block cursor-pointer px-4 w-full text-left py-2 hover:bg-gray-200 hover:text-[#14b8a6]">
+          Русский
+        </a>
+      </li>
+    </ul>
+  )}
+</div>
+
 
           <div className="hidden md:block">
             <input type="text" placeholder="Search..." className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
