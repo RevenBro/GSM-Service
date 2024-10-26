@@ -32,6 +32,15 @@ const resources = {
       joinToday: "Bugun qo'shiling!",
       jointodayBody: "Ekskluziv kontentga kirish huquqiga ega bo'ling va so'nggi yangilanishlarimizdan birinchi bo'lib xabardor bo'ling.",
       signUp: "Ro'yhattan o'tish",
+      contactBody: "Agar sizda biron bir savol bo'lsa, quyidagi usullardan biri orqali biz bilan bog'lanishingiz mumkin:",
+      fullName: "To'liq ismingiz",
+      name: "ismingiz",
+      email: "Elektron pochtangiz",
+      emailM: "Pochtangiz",
+      phoneNumber: "Telefon raqamingiz",
+      message: "Xabar qoldiring",
+      enterMessage : "Xabaringizni qoldiring",
+      send: "Yuborish"
     },
   },
   en: {
@@ -63,6 +72,15 @@ const resources = {
       joinToday: "Join now",
       jointodayBody: "Get access to exclusive content and be the first to know about our latest updates.",
       signUp: "Sign Up",
+      contactBody: "If you have any questions, you can contact us using one of the methods below:",
+      fullName: "Full name",
+      name: "Name",
+      email: "Email address",
+      emailM: "Addess",
+      phoneNumber: "Phone number",
+      message: "Leave a message",
+      enterMessage : "Enter your message",
+      send: "Send"
     },
   },
   ru: {
@@ -94,6 +112,15 @@ const resources = {
       joinToday: "Присоединяйтесь сегодня!",
       jointodayBody: "Получите доступ к эксклюзивному контенту и первыми узнавайте о наших последних обновлениях.",
       signUp: "Зарегистрироваться",
+      contactBody: "Если у вас есть вопросы, вы можете связаться с нами одним из способов ниже:",
+      fullName: "Полное имя",
+      name: "Имя",
+      email: "Адрес электронной почты",
+      emailM: "Адрес",
+      phoneNumber: "Номер телефона",
+      message: "Oставить сообщение",
+      enterMessage : "Введите ваше сообщение",
+      send: "Отправить"
     },
   },
 };
