@@ -23,11 +23,6 @@ function Header({ changeLang }) {
     });
   };
 
-  // const handleChangeLang = (e) => {
-  //   console.log(e);
-  //   changeLang(e);
-  // }
-
   return (
     <header className="bg-gray-900 p-[20px] text-white shadow-md z-30">
       <Toaster position="top-center" reverseOrder={false} />
@@ -42,10 +37,10 @@ function Header({ changeLang }) {
         <nav className="flex items-center space-x-6 z-50">
           <ul className={`md:flex md:space-x-6 ${isMenuOpen ? "flex flex-col space-y-4" : "hidden md:flex"}`}>
             <li>
-              <Link to="/" className="hover:text-teal-400">{t('asosiy')}</Link>
+              <Link to="/" className="hover:text-teal-400">{t('main')}</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-teal-400">{t("boglanish")}</Link>
+              <Link to="/contact" className="hover:text-teal-400">{t("contact")}</Link>
             </li>
             <li>
               <Link to="/FAQ" className="hover:text-teal-400">FAQ</Link>
@@ -110,7 +105,7 @@ function Header({ changeLang }) {
 
 <div className="relative">
   <button className="flex items-center space-x-2 hover:text-teal-400 focus:outline-none" onClick={toggleDropdown}>
-    <span>Til</span>
+    <span>{t("lang")}</span>
     <svg className="w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
       <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
     </svg>
@@ -138,12 +133,12 @@ function Header({ changeLang }) {
 
 
           <div className="hidden md:block">
-            <input type="text" placeholder="Search..." className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
+            <input type="text" placeholder={t("searh")} className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
           </div>
 
           <div className="hidden md:block">
             <button onClick={handleLoginClick} className="px-4 py-2 bg-teal-400 text-white rounded hover:bg-teal-500 focus:outline-none">
-            {t("kirish")}
+            {t("login")}
             </button>
           </div>
         </nav>

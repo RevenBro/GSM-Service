@@ -9,8 +9,10 @@ import './styles.css';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import ExampleImage1 from '../../assets/images/favicon.png';
+import { useTranslation } from 'react-i18next';
 
 export default function App() {
+  const {t} = useTranslation()
   return (
     <Swiper
         spaceBetween={30}
@@ -29,9 +31,9 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content-container">
             <div className="slide-text">
-              <h2 className="slide-title">Telefon & Laptop Servis</h2>
-              <p className="slide-description">Telefon va Laptopingizni qiyinchiliksiz tuzating</p>
-              <a href="#" className="slide-button">Batafsil</a>
+              <h2 className="slide-title">{t("heroHeader")}</h2>
+              <p className="slide-description">{t("heroBody")}</p>
+              <a href="#" className="slide-button">{t("heroLink")}</a>
             </div>
             <div className="slide-image">
               <img src={ExampleImage1} alt="Example 1" />
@@ -41,9 +43,9 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content-container">
             <div className="slide-text">
-              <h2 className="slide-title">Bepul diagnostika</h2>
-              <p className="slide-description">Kompyuter va noutbukingizni bepul diagnostika qiling</p>
-              <a href="#" className="slide-button">Batafsil</a>
+              <h2 className="slide-title">{t("heroHeader")}</h2>
+              <p className="slide-description">{t("heroBody")}</p>
+              <a href="#" className="slide-button">{t("heroLink")}</a>
             </div>
             <div className="slide-image">
               <img src={ExampleImage1} alt="Example 2" />
@@ -53,9 +55,9 @@ export default function App() {
         <SwiperSlide>
           <div className="slide-content-container">
             <div className="slide-text">
-              <h2 className="slide-title">Slide </h2>
-              <p className="slide-description">Description for Slide 3</p>
-              <a href="#" className="slide-button">Learn More</a>
+              <h2 className="slide-title">{t("heroHeader")}</h2>
+              <p className="slide-description">{t("heroBody")}</p>
+              <a href="#" className="slide-button">{t("heroLink")}</a>
             </div>
             <div className="slide-image">
               <img src={ExampleImage1} alt="Example 3" />
