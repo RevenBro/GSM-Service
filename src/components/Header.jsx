@@ -133,7 +133,7 @@ function Header({ changeLang }) {
 
 
           <div className="hidden md:block">
-            <input type="text" placeholder={t("searh")} className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
+            <input type="text" placeholder={t("search")} className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
           </div>
 
           <div className="hidden md:block">
