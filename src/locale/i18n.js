@@ -40,7 +40,8 @@ const resources = {
       phoneNumber: "Telefon raqamingiz",
       message: "Xabar qoldiring",
       enterMessage : "Xabaringizni qoldiring",
-      send: "Yuborish"
+      send: "Yuborish",
+      oftenQuestions: "Tez-tez so'raladigan savollar"
     },
   },
   en: {
@@ -80,7 +81,8 @@ const resources = {
       phoneNumber: "Phone number",
       message: "Leave a message",
       enterMessage : "Enter your message",
-      send: "Send"
+      send: "Send",
+      oftenQuestions: "Frequently asked questions"
     },
   },
   ru: {
@@ -120,7 +122,8 @@ const resources = {
       phoneNumber: "Номер телефона",
       message: "Oставить сообщение",
       enterMessage : "Введите ваше сообщение",
-      send: "Отправить"
+      send: "Отправить",
+      oftenQuestions: "Часто задаваемые вопросы"
     },
   },
 };

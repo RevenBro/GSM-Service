@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 const FAQ = () => {
@@ -7,6 +8,8 @@ const FAQ = () => {
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+
+  const {t} = useTranslation()
 
   const faqItems = [
     {
@@ -29,7 +32,7 @@ const FAQ = () => {
 
   return (
     <div className="bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white p-8">
-      <h2 className="text-3xl font-bold mb-6 border-l-4 border-teal-400 pl-4">Tez-tez so'raladigan savollar</h2>
+      <h2 className="text-3xl font-bold mb-6 border-l-4 border-teal-400 pl-4">{t("oftenQuestions")}</h2>
       <div className="space-y-4">
         {faqItems.map((item, index) => (
           <div key={index} className="border-b border-teal-400">
