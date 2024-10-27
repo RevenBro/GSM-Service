@@ -7,6 +7,8 @@ const resources = {
     translation: {
       main: "Asosiy",
       contact: "Bog'lanish",
+      services: "Xizmatlar",
+      about: "Biz haqimizda",
       lang: "Til",
       login: "Kirish",
       search: "Qidirish...",
@@ -41,13 +43,19 @@ const resources = {
       message: "Xabar qoldiring",
       enterMessage : "Xabaringizni qoldiring",
       send: "Yuborish",
-      oftenQuestions: "Tez-tez so'raladigan savollar"
+      oftenQuestions: "Tez-tez so'raladigan savollar",
+      quickLinks: "Tezkor Linklar",
+      keepNews: "Yangilanishlardan xabardor bo'ling",
+      keepNewsBody: "Oxirgi yangilanishlardan xabardor bo'lishingiz uchun emailingizni kiriting",
+      footerBody: "KelesGSM mobil va noutbuklarni ta'mirlash bilan bog'liq barcha narsalar uchun asosiy platformadir. edl nuqtalari, proshivka fayllari va FRPni olib tashlash bo'yicha xizmatlarimizdan foydalaning."
     },
   },
   en: {
     translation: {
       main: "Main",
       contact: "Contact",
+      services: "Services",
+      about: "About us",
       lang: "Language",
       login: "Login",
       search: "Search...",
@@ -82,13 +90,19 @@ const resources = {
       message: "Leave a message",
       enterMessage : "Enter your message",
       send: "Send",
-      oftenQuestions: "Frequently asked questions"
+      oftenQuestions: "Frequently asked questions",
+      quickLinks: "Quick Links",
+      keepNews: "Stay tuned for updates",
+      keepNewsBody: "Enter your email to receive the latest updates",
+      footerBody: "KelesGSM is the ultimate platform for all things mobile and laptop repair. Use our services to remove edl points, firmware files and FRP."
     },
   },
   ru: {
     translation: {
       main: "Главная",
       contact: "Контакты",
+      services: "Услуги",
+      about: "О нас",
       lang: "Язык",
       login: "Войти",
       search: "Поиск...",
@@ -123,7 +137,11 @@ const resources = {
       message: "Oставить сообщение",
       enterMessage : "Введите ваше сообщение",
       send: "Отправить",
-      oftenQuestions: "Часто задаваемые вопросы"
+      oftenQuestions: "Часто задаваемые вопросы",
+      quickLinks: "Быстрые Ссылки",
+      keepNews: "Cледите за обновлениями",
+      keepNewsBody: "Введите адрес электронной почты, чтобы получать последние обновления",
+      footerBody: "KelesGSM — идеальная платформа для ремонта мобильных телефонов и ноутбуков. Воспользуйтесь нашими услугами для удаления очков edl, файлов прошивки и FRP."
     },
   },
 };
