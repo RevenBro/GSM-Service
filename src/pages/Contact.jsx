@@ -1,18 +1,54 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import {FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function Contact() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
+  const formRef = useRef(null);
+  const CHAT_ID = "-1002420689048";
+  const TOKEN = "7802132359:AAEeKKEFqEo7w-sesSpg4KVDQKOYepszn80";
+  const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+  const handleSubmit = async (evt) => {
+    evt.preventDefault();
+
+    const userName = evt.target.userName.value;
+    const userEmail = evt.target.userEmail.value;
+    const userPhone = evt.target.userPhone.value;
+    const userMessage = evt.target.UserMessage.value;
+
+    const message = `Ism: ${userName}\nEmail: ${userEmail}\nTelefon: +998${userPhone}\nXabar: ${userMessage}`;
+
+    try {
+      const response = await fetch(URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          chat_id: CHAT_ID,
+          text: message,
+        }),
+      });
+
+      if (response.ok) {
+        alert("Xabaringiz muvaffaqiyatli yuborildi!");
+      } else {
+        alert("Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.");
+      }
+    } catch (error) {
+      console.error("Xatolik:", error);
+      alert("Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.");
+    }
+  };
+
   return (
-    <>
-      <section className="bg-[#1F2937] px-5 text-white py-16">
+    <section className="bg-[#1F2937] px-5 text-white py-16">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             <h2 className="text-3xl font-bold">{t("contact")}</h2>
             <p>{t("contactBody")}</p>
-            
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <FaPhoneAlt className="text-teal-400 text-xl" />
@@ -42,31 +78,33 @@ function Contact() {
           </div>
 
           <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
-            <form className="space-y-6">
+            <form ref={formRef} onSubmit={handleSubmit} className="space-y-6 submit-form">
               <div>
                 <label className="block mb-2 font-semibold">{t("fullName")}</label>
-                <input type="text" placeholder={t("name")} className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
+                <input autoComplete='off' name='userName' type="text" required placeholder={t("name")} className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
               </div>
               <div>
                 <label className="block mb-2 font-semibold">{t("email")}</label>
-                <input type="email" placeholder={t("emailM")} className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
+                <input autoComplete='off' name='userEmail' type="email" required placeholder={t("emailM")} className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
               </div>
               <div>
                 <label className="block mb-2 font-semibold">{t("phoneNumber")}</label>
-                <input type="tel" placeholder={t("phoneNumber")} className="w-full p-4 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
+                <div className="flex">
+                  <span className="bg-gray-700 text-white p-4 rounded-l">+998</span>
+                  <input autoComplete='off' name='userPhone' type="tel" required placeholder={t("phoneNumber")} maxLength="9" className="w-full p-4 rounded-r bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-teal-400" pattern="[0-9]{9}" title="Faqat 9 ta raqam kiriting"/>
+                </div>
               </div>
               <div>
                 <label className="block mb-2 font-semibold">{t("message")}</label>
-                <textarea placeholder={t("enterMessage")} className="w-full p-4 rounded bg-gray-700 text-white h-32 focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
+                <textarea maxLength={300} autoComplete='off' name='UserMessage' placeholder={t("enterMessage")} required className="w-full p-4 rounded bg-gray-700 text-white h-32 focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
               </div>
               <button type="submit" className="w-full bg-teal-400 text-gray-900 font-semibold py-4 rounded hover:bg-teal-500 transition">{t("send")}</button>
             </form>
           </div>
         </div>
       </div>
-      </section>
-    </>
-  )
+    </section>
+  );
 }
 
-export default Contact
+export default Contact;

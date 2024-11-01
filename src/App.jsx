@@ -7,8 +7,8 @@ import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import TestPoints from './pages/Testpoints/Testpoints';
 import PhoneDetails from './pages/Testpoints/PhoneDetails';
-import Firmwares from "./pages/Firmwares/Firmwares"
-import FirmwareDetails from "./pages/Firmwares/FirmwareDetails"
+// import Firmwares from "./pages/Firmwares/Firmwares"
+// import FirmwareDetails from "./pages/Firmwares/FirmwareDetails"
 import i18n from './locale/i18n'; 
 import './locale/i18n'; 
 
@@ -27,8 +27,8 @@ function App() {
         <Route path="/faq" element={<FAQ/>}/>
         <Route path="/testpoints" element={<TestPoints/>}/>
         <Route path="/testpoints/:brand" element={<PhoneDetails/>}/>
-        <Route path='/firmwares' element={<Firmwares/>}/>
-        <Route path="/firmwares/:brand" element={<FirmwareDetails/>}/>
+        {/* <Route path='/firmwares' element={<Firmwares/>}/>
+        <Route path="/firmwares/:brand" element={<FirmwareDetails/>}/> */}
       </Routes>
 
       <Footer />
