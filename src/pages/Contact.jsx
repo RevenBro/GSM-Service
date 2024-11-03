@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Toaster, toast } from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -32,18 +33,19 @@ function Contact() {
       });
 
       if (response.ok) {
-        alert("Xabaringiz muvaffaqiyatli yuborildi!");
+        toast.success("Xabaringiz muvaffaqiyatli yuborildi :)");
       } else {
-        alert("Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.");
+        toast.error("Xatolik yuz berdi!")
       }
     } catch (error) {
       console.error("Xatolik:", error);
-      alert("Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.");
+      toast.error("Xatolik yuz berdi!")
     }
   };
 
   return (
     <section className="bg-[#1F2937] px-5 text-white py-16">
+      <Toaster position="top-center" reverseOrder={false}/>
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
@@ -51,28 +53,28 @@ function Contact() {
             <p>{t("contactBody")}</p>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
-                <FaPhoneAlt className="text-teal-400 text-xl" />
+                <FaPhoneAlt className="text-teal-400 text-xl"/>
                 <a href='tel:+998334845656'>+998 99 484 5656</a>
               </div>
               <div className="flex items-center space-x-4">
-                <FaEnvelope className="text-teal-400 text-xl" />
+                <FaEnvelope className="text-teal-400 text-xl"/>
                 <span>info@gsmkeles.com</span>
               </div>
               <div className="flex items-center space-x-4">
-                <FaMapMarkerAlt className="text-teal-400 text-xl" />
+                <FaMapMarkerAlt className="text-teal-400 text-xl"/>
                 <span>Keles Yuli Street, 3</span>
               </div>
             </div>
 
             <div className="flex space-x-6">
               <a href="#" className="text-teal-400 hover:text-teal-300">
-                <FaFacebook size={24} />
+                <FaFacebook size={24}/>
               </a>
               <a href="#" className="text-teal-400 hover:text-teal-300">
-                <FaTwitter size={24} />
+                <FaTwitter size={24}/>
               </a>
               <a href="#" className="text-teal-400 hover:text-teal-300">
-                <FaInstagram size={24} />
+                <FaInstagram size={24}/>
               </a>
             </div>
           </div>
