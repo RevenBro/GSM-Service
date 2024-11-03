@@ -11,7 +11,6 @@ function Contact() {
   const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
   const handleSubmit = async (evt) => {
-    evt.preventDefault();
 
     const userName = evt.target.userName.value;
     const userEmail = evt.target.userEmail.value;
@@ -41,6 +40,7 @@ function Contact() {
       console.error("Xatolik:", error);
       toast.error("Xatolik yuz berdi!")
     }
+    evt.preventDefault();
   };
 
   return (
