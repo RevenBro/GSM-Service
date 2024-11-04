@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SiteLogo from "../assets/images/favicon.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import { useTranslation } from "react-i18next";
 
@@ -8,6 +8,7 @@ function Header({ changeLang }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation()
+  const navigate = useNavigate()
   
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -21,6 +22,7 @@ function Header({ changeLang }) {
     toast("Tez kunda", {
       duration: 2500,
     });
+    navigate("/login")
   };
 
   return (
@@ -146,11 +148,11 @@ function Header({ changeLang }) {
 
       {isMenuOpen && (
         <div className="md:hidden flex flex-col space-y-4 mt-4 px-6">
-          <Link to="/" className="block text-teal-400 hover:text-teal-300">Asosiy</Link>
-          <Link to="/contact" className="block text-teal-400 hover:text-teal-300">Bog'lanish</Link>
+          <Link to="/" className="block text-teal-400 hover:text-teal-300">{t("main")}</Link>
+          <Link to="/contact" className="block text-teal-400 hover:text-teal-300">{t("contact")}</Link>
           <Link to="/FAQ" className="block text-teal-400 hover:text-teal-300">FAQ</Link>
           <input type="text" placeholder="Search..." className="px-3 py-2 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-teal-400"/>
-          <button className="px-4 py-2 bg-teal-400 text-white rounded hover:bg-teal-500 focus:outline-none">Login</button>
+          <button onClick={navigate("/login")} className="px-4 py-2 bg-teal-400 text-white rounded hover:bg-teal-500 focus:outline-none">{t("login")}</button>
         </div>
       )}
     </header>
