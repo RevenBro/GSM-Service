@@ -329,24 +329,86 @@
 
   {
     "brand": "Samsung",
-    "model": "A05S",
-    "image": "/images/samsung-a05s.jpg",
-    "about": "Samsung A05S uchun testpoint ma'lumotlari."
-  },
-  {
-    "brand": "Huawei",
-    "model": "Y20",
-    "image": "/images/vivo-y20.jpg",
-    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
-  },
-  {
-    "brand": "Huawei",
-    "model": "Y20",
-    "image": "/images/vivo-y20.jpg",
-    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
+    "model": "A01 Core",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRZwjf6eKgj5hwjvf86RdaP1uIjzygncvlOSzaC7pAjIvV1_kIi58sBAkO8YhUz4Bjcw-QtVDn2GhUugcKCJwLDHCe-MwzHvZrpPX8F7aNiIW3Ad0S3mUR-jLorAel1eW2YCJIUjesya8T/s619/A01_core_SM-A013G.png",
+    "about": "Model: SM-A013F / A013G"
   },
   {
     "brand": "Samsung",
+    "model": "A01",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhfxT6kPB5jOwlkx8n_Cu45h3RacFEUIgyg_FCI9EgPyh31Y9P3ZeXCRK9Y0V8tCd5ay0Al0R75uFcO3giWgZb_hex_jd50ltfU9pKoeDyvI91AyORdhfGRhT5XUXrIefsegLWQadzOQK/s661/A01_SM-A015.png",
+    "about": "Model: SM-A015F / A015G / A015M"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A02",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfhXJcumrzE3U_IdMec0d_ktQHx0ESEev0uVFcIO5BbH8WbvH7C5EW3NSCvjitkb_gDeFAd8Xt5glFXfIzByX69Nyty3iJA26QvzirFo6q8MXuvSAbWH12iJnje2iZN-AfaM1a5YuUglRS/s631/A02_Sm-A022Fgm.png",
+    "about": "Model: SM-A022F / A015M / A015G"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A02S",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfhXJcumrzE3U_IdMec0d_ktQHx0ESEev0uVFcIO5BbH8WbvH7C5EW3NSCvjitkb_gDeFAd8Xt5glFXfIzByX69Nyty3iJA26QvzirFo6q8MXuvSAbWH12iJnje2iZN-AfaM1a5YuUglRS/s631/A02_Sm-A022Fgm.png",
+    "about": "Model: SM-A025F / A015G / A025M / A025V"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A03S",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS4iiE2FlLpZZ97oP1cr0wfr7jJSd9poTr-973TNxs6MQnDJ5Mint-uv6Q3zRokSOV9nGRMBBNsMTxbotJZGBnskd6Gns8KbjvxRD9i3iJHVt_LCgO9P3UuvC30D2_Frg2AF61JzgjMteE/s505/A03s_SM-A037F.png",
+    "about": "Model: SM-A037F"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A11",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSi64sTqnHgi2Ekw9wljn2UyUQTaA5Z5MXGv0Eb0sVgQeYLocXXv0ox4Zyabyz-8CKDP85M5OGLnlTENssbVHPn5pvkIV9w6HBZzoiVMwEie1DaK0XPz0IoLEYweVX9YFhqDX9noTbEDiC/s477/A11_SM-A115.png",
+    "about": "Model: SM-A115F / A015M / A015U / A115W / A115AP"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A12",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiftyffeG-sAy0Tuop894sJcbkjoPX-zoYbZvxe9DgAe-atjxK2tQH5jWND4iJr6bbr_X_fDQbOVqLqblQdASkRivBxRA8tLpx4yHfoyak_ahWK0pybzSXGW41l_BFZ8kSRkWuEqa3uAQ9K/s640/A12_SM-A125FMN.png",
+    "about": "Model: SM-A125F / A015M / A015U"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A22",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoInkL2jJ1BwUWew55kEP6vfOT5jI2Ddff3sNLe33B2VMmiMZWGH0J5GsD1Rscb2EFGuO5oLlIDa5qCTywbKwM2v1v4Wng60GVphzkwEHQAMjLmvsT0vXXQULpPw0QXrF2O_1VuDI6n7e1/s887/Screenshot_2021-11-18-19-56-23-22.jpg",
+    "about": "Model: SM-A225F / A225M"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A31",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB4DIiy19qwrNtYX0l0LGuUuHqhX176s6sH-evPtipvFZQihwnqlHQ3ZyhDbNxKtOgP9CB5WKX4GQd1i0CzpQ2WWUHbXB5yLYEYJ2ThRYyLV89PGoOLycOjQpK1v9Nb3s9AlCHSu-Ixw-a/s664/A31_A315.png",
+    "about": "Model: SM-A315F / A315G / A315N"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A32",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuGJoYeSVuhcxA8lwTyCDdF_QPEkg1oSk7nvXznwL6cQQW6hagI_4dYfgqOdv5YBp97L6C24ItyuSLDGl7v4QK5caiwnOxBvkIMATGGi5aJvtIdUVv9eArOkgdV6U-DTSZ9YiykvIxDRRG/s632/A32_4G_SM-A325F.png",
+    "about": "Model: SM-A325F / A325M / A325N"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A32 5G",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIB9Frcy61ETX-Yx7k87cp-ad3cCoobdQpt9ZSGldbpsGVraz8D0wvOOxygXpO95ox1fN5jWyXoQKQTlvJHcW3JIIJHfs_B9K0JF7rdCH1zqSRy4yELrkuX0pXLwnpmJ27AAjWy20wNF66/s460/A32_5G_SM-A326B.png",
+    "about": "Model: SM-A326B / A326BR / A326U / A326W"
+  },
+  {
+    "brand": "Samsung",
+    "model": "A80",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-v1rooN1n3Kj6yXDRTYN5bs1Ovgvawsv0CURpcY7urUF35RJzZVeM7Eosn8NLza36gEpjrMuIdzKgzNPDzb9N_pYCA6H0x9fpWKBolD-Yp8NTZH6ouMIJRnfWurfPX7C6gE50C83CrsDY/s485/A80_SM-A805F.png",
+    "about": "Model: SM-A805F / A805O / A805X / A805N"
+  },
+
+
+  {
+    "brand": "Huawei",
+    "model": "Y20",
+    "image": "/images/vivo-y20.jpg",
+    "about": "Vivo Y20 uchun testpoint ma'lumotlari."
+  },
+  {
+    "brand": "Huawei",
     "model": "Y20",
     "image": "/images/vivo-y20.jpg",
     "about": "Vivo Y20 uchun testpoint ma'lumotlari."
