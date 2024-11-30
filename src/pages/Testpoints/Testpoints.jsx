@@ -20,7 +20,7 @@ const Testpoints = () => {
           <TestpointCard onclick={() => handleBrandClick('samsung')} logo={SamsungLogo} brand={"Samsung"} body={`Mavjud modellar soni: 16`}/>
           <TestpointCard onclick={() => handleBrandClick('redmi')} logo={RedmiLogo} brand={"Redmi"} body={`Mavjud modellar soni: 44`}/>
           <TestpointCard onclick={() => handleBrandClick('poco')} logo={PocoLogo} brand={"Poco"} body={`Mavjud modellar soni: 11`}/>
-          <TestpointCard onclick={() => handleBrandClick('huawei')} logo={HuaweiLogo} brand={"Huawei"} body={`Mavjud modellar soni: 0`}/>
+          {/* <TestpointCard onclick={() => handleBrandClick('huawei')} logo={HuaweiLogo} brand={"Huawei"} body={`Mavjud modellar soni: 0`}/> */}
         </div>
       </div>
     </section>
