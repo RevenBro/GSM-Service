@@ -24,7 +24,6 @@ function App() {
 
   return (
     <>
-      {/* <Header changeLang={changeLang} /> */}
       {!isLoginPage && <Header changeLang={changeLang}/>}
 
       <Routes>
