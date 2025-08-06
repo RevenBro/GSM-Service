@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gsmkeles.uz/sitemap.xml
